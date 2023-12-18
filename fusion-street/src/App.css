@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#root {
+  /* max-width: 1280px; */
+  scroll-behavior: smooth;
+  scroll-snap-type: mandatory;
+}
+
+.active a {
+  color: red;
+}
